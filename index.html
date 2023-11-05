@@ -1,0 +1,357 @@
+<html >
+<head>
+  <title> protfolio </title>
+     <style>
+	*{
+	margin:0;
+	padding: 0;
+ 	font-family:'poppins' , sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #080808;
+	color: #fff;
+}
+       
+.container{
+  padding:10px 10%;
+}
+.container h1 span{
+  color:#ff004f;
+}
+
+nav{
+        display:flex;
+	align- items: center;
+	justify-content:space-between;
+	flex-wrap;
+
+}
+h2{
+width:150px;
+}
+nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 12px;
+	align: right;
+}
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-size:18px;
+position:relative;
+}
+
+.image{
+height: 200px;
+align:right;
+width:200px;
+}
+nav ul li a::after{
+  content:'';
+	width:0%;
+	height: 3px;
+ 	background:#ff004f;
+	position:absolute;
+	left:0;
+	bottom:-6px;
+	transition: 0.5s;
+}
+nav ul li a:hover::after{
+     width:100%
+}
+.header-text{
+ 	margin-top:20%;
+	font-size:30px;
+        margin-left:20%; 
+}
+.header-text h1{
+	font-size:60px;
+	margin-top:20px;
+}
+.header-text h1  span{
+ color:#ff004f;
+}
+.class img {
+border-radius: 50%;
+	position:right;
+
+  position: absolute;
+  top: 350px; /* Adjust as needed */
+  left: 1000px; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  width: 20%; /* Adjust the percentage to your desired width */
+  height: auto; 
+  text-align:right; 	
+}
+.about1{
+fongt-size:10px;
+color:grey;
+padding:10px 20%;
+}
+.skills{
+width:1500px;
+height:500px;
+}
+.skill-col1{
+width:600px;
+height:500px;
+padding:150px 10%;
+align:left;
+float:left;
+  
+}
+.skill-col2{
+width:900px;
+height:500px;
+padding:150px 10%;
+float:left;
+color:gray;
+}
+
+.skill-col2 h2{
+font-size:55px;
+font-weight:bold;
+color:white;
+}
+.skill-col2-ul{
+padding:20px 5%;
+}        
+.project{
+width:1500;
+height:550;
+text-algin:center;
+}
+.pro1{
+width:250;
+height:250;
+padding:20px 20%;
+float:left;
+}
+
+.project h2{
+font-size:55px;
+font-weight:bold;
+text-algin:center;
+padding:20px 45%;
+}
+.pro2 {
+width:50;
+height:50;
+padding:15px 0px;
+font-size:20px;
+text-decoration:none;
+}
+.pro-cal{
+width:500;
+height:250;
+padding:20px 20%;
+float:left;
+}
+.pro-cal2 {
+width:500;
+height:50;
+padding:15px 0px;
+font-size:20px;
+text-decoration:none;
+}
+.con{
+width:200;
+height:50;
+font-size:50px;
+font-weight:bold;
+text-algin:center;
+padding:10px 30%;
+float:left;
+text-algin:center;
+}
+.contact{
+width:1500;
+height:500;
+font-size:20px;
+}
+.con1{
+width:50;
+height:50;
+padding:10px 20%;
+}
+.con2{
+width:50;
+height:50;
+padding:10px 20%;
+}
+.cont{
+width:700;
+height:500;
+float:left;
+font-size: 20px;
+}
+cont2{
+width:500;
+height:500;
+float:left;
+}
+
+.con3{
+width:50;
+height:50;
+padding:10px 20%;
+}
+
+.con4{
+width:50;
+height:50;
+padding:10px 20%;
+}
+
+.cont2 form{
+font-size: 20px;
+}
+        #download-button {
+            background-color: #008CBA;
+            color: #fff;
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+   
+.resume{
+width:50;
+height:50;
+text-algin:center;
+padding:10px 20%;
+float:left;
+text-algin:center;
+margin:20;
+}
+</style> 
+</head>
+<body>
+  <div class="container">
+   <nav> 
+	<h1><i><span><b>SHRUTI SINHA</b></span></i></h2>
+         <ul>
+         <li><a href="#">About </a></li>
+ 	 <li><a href="#">Skills </a></li>
+	<li><a href="#">Projects </a></li>
+	<li><a href="#">Contact </a></li>	
+        <li><a href="#">Resume </a></li>		
+	</nav>
+</div>
+<div class="class">
+ <img src="C:\Users\Dell\Desktop\image\shruti.jpeg"></img>
+</div>
+<div class="header-text">
+<h1> Hi, I'm <span>Shruti </span></h1>
+</div>
+<div class="about1">
+<pre>
+<p> A passionate Full Stack Software Developer having an experience
+ of building Web and Mobile application with JavaScript/ Reactjs/
+ Nodejs/ React Native ans some other cool libraries and frameworks. 
+</p>	
+</pre>
+</div>
+<div class="skills">
+   <div class="skill-col1">
+        <img src="computerlogo.jpg" width="400" height="200" algin=center></img>
+   </div>
+   <div class="skill-col2">
+    <h2> Skills </h2>
+        <div class="skill-col2-ul"> 
+       <ul> <li>	Programming Languages: C, C++, java, Python</li>
+	<li> Scripting Languages: HTML, CSS, java Script</li>	
+	<li>Operating Systems: Windows , Linux, MS-DOS</li>
+	<li>Packages : Microsoft Office</li>
+	<li>RDBMS : Oracle, MS-SQL server</li>
+	<li> Tools: Chatgpt, googlebard</li>
+        </div>
+   </div>
+</div>	
+<div class="project">
+  <h2> Project </h2>
+<div class="pro1">
+   <img src="cal1.jpeg" width="200" height="250"></img>
+<div class="pro2">
+<pre>
+   <a href="C:\Users\Dell\Desktop\html\shrutical.html"> click here to visit my Project </a>
+</pre>
+</div>
+</div>
+<div class="pro-cal">
+  <img src="todolist.jpeg" width="200" height="250"></img>
+  <div class="pro-cal2">
+<pre>
+   <a href="C:\Users\Dell\Desktop\html\New folder\list.html"> click here to visit my Project </a>
+</pre>
+</div>
+</div>
+<div class="contact">
+   <pre>
+   <div class="con">
+   <h2> Contact Me </h2>
+   </pre> 
+    </div>
+    <div class="cont">
+          <div class="con2">
+       <pre>  <img src="contact.jpeg" width="40" height="40"></img>   +91 9508543469</pre>  
+
+    </div>
+   <div class="con3">
+       <pre>  <img src="email.jpeg" width="40" height="40"></img>      shrutikumari06660@gmail.com</pre>
+       </div>
+   
+   <div class="con1">
+       <pre>  <img src="whatApp.jpeg" width="40" height="40"></img>    <a href=" https://wa.me/+919508543469">click here</a></pre>
+       </div>
+      <div class="con4">
+       <pre>  <img src="linkdin.jpeg" width="40" height="40"></img>     <a href=" https://www.linkedin.com/in/shruti-sinha-83b61b268">click here</a></pre> 
+   </div>
+   <div class="resume">
+<button id="download-button"> Resume</button>
+
+    <script>
+        document.getElementById('download-button').addEventListener('click', function() {
+            // Replace 'resume.pdf' with the actual URL of your resume in PDF format.
+            window.open('https://example.com/C:/Users/Dell/Desktop/certificates/s1resume.pdf', '_blank');
+        });
+    </script>
+</div>
+
+</div>
+<div class="cont2">
+  <form >
+
+       <pre><label for="name"> Name:</label>        <input type="text" id="name" name="name" placeholder="Enter first name"></pre>
+       <br> 
+      
+       <pre><label for="email">E mail:</label>        <input type="email" id="name" name="email" placeholder="****************@gamil.com"></pre>  
+       <br>
+      
+       <pre>Country:      <select>
+                          <option> Please enter Select </option>
+                          <option>INDIA </option>
+                          <option> USA</option>
+                          <option> SRI LANKA </option>
+                          <option> NEPAL </option>
+                          </select>
+     </pre>
+     <pre>Subject:       <textarea rows="4" cols="30"></textarea>   </pre>      
+     <br>
+     
+     <input type="submit"  value="Submit">
+	<br>
+
+ 
+</form> 
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
